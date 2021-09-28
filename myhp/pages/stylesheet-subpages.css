@@ -1,0 +1,77 @@
+<style>
+* {
+    box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+    margin-left: 230px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:whitesmoke;
+    margin-right: 20px;
+}
+
+#tt {
+    border-radius: 10px;
+    filter: drop-shadow(0 0 0.30rem black);
+    float: right;
+}
+
+#fb {
+    border-radius: 10px;
+    filter: drop-shadow(0 0 0.15rem black);
+}
+
+#ig {
+    border-radius: 10px;
+    filter: drop-shadow(0 0 0.15rem black);
+}
+
+#li {
+    border-radius: 10px;
+    filter: drop-shadow(0 0 0.15rem black);
+}
+
+section {
+    padding-bottom: 30px;
+}
+
+#om {
+    float: left;
+    width: 47%;
+    border: 2px solid;
+    padding: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Style the side navigation */
+.sidenav {
+    height: 100%;
+    width: 210px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:rgb(104, 206, 240);
+    overflow-x: auto;
+}
+
+/* Side navigation links */
+.sidenav a {
+    color:black;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+    background-color:whitesmoke;
+    color: black;
+}
+</style>
